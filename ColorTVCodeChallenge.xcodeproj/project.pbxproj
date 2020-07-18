@@ -16,6 +16,29 @@
 		82944A2B24C2E53C00A0AB0C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82944A2A24C2E53C00A0AB0C /* MapViewController.swift */; };
 		82944A2F24C2E7A400A0AB0C /* FuturaPTBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82944A2D24C2E7A000A0AB0C /* FuturaPTBook.otf */; };
 		82944A3024C2E7A700A0AB0C /* FuturaPTDemi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82944A2E24C2E7A000A0AB0C /* FuturaPTDemi.otf */; };
+		82944A3324C2EB6C00A0AB0C /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82944A3224C2EB6C00A0AB0C /* CustomUIView.swift */; };
+		82E9EAC424C2ED0E00F313B3 /* CustomGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAC324C2ED0E00F313B3 /* CustomGradientButton.swift */; };
+		82E9EAC724C2F16400F313B3 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAC624C2F16400F313B3 /* MapDetailViewController.swift */; };
+		82E9EACC24C2F21400F313B3 /* onCallweatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EACB24C2F21400F313B3 /* onCallweatherModel.swift */; };
+		82E9EACE24C2F25100F313B3 /* OnCallDailyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EACD24C2F25100F313B3 /* OnCallDailyModel.swift */; };
+		82E9EAD024C2F27600F313B3 /* OnCallDailyWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EACF24C2F27600F313B3 /* OnCallDailyWeatherModel.swift */; };
+		82E9EAD224C2F29700F313B3 /* OnCallHourlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAD124C2F29700F313B3 /* OnCallHourlyModel.swift */; };
+		82E9EAD424C2F2B200F313B3 /* OnCallDefaultDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAD324C2F2B200F313B3 /* OnCallDefaultDataProtocol.swift */; };
+		82E9EAD624C2F2CD00F313B3 /* onCallCurrentWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAD524C2F2CD00F313B3 /* onCallCurrentWeatherModel.swift */; };
+		82E9EAD924C2F42400F313B3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAD824C2F42400F313B3 /* Network.swift */; };
+		82E9EADB24C2F44E00F313B3 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EADA24C2F44E00F313B3 /* NetworkErrors.swift */; };
+		82E9EADE24C2F48E00F313B3 /* NetworkResponseChainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EADD24C2F48E00F313B3 /* NetworkResponseChainProtocol.swift */; };
+		82E9EAE024C2F4AA00F313B3 /* NotResponse404.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EADF24C2F4AA00F313B3 /* NotResponse404.swift */; };
+		82E9EAE224C2F4C600F313B3 /* Response200.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAE124C2F4C600F313B3 /* Response200.swift */; };
+		82E9EAE424C2F4F500F313B3 /* ServerError500.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAE324C2F4F500F313B3 /* ServerError500.swift */; };
+		82E9EAE724C2FB0E00F313B3 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAE624C2FB0E00F313B3 /* MKMapView.swift */; };
+		82E9EAE924C2FB6100F313B3 /* MapKitDelegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAE824C2FB6100F313B3 /* MapKitDelegation.swift */; };
+		82E9EAEB24C3023F00F313B3 /* URLGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAEA24C3023F00F313B3 /* URLGenerator.swift */; };
+		82E9EAF024C302CE00F313B3 /* OnCallParametersEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAEF24C302CE00F313B3 /* OnCallParametersEnum.swift */; };
+		82E9EAF224C3090900F313B3 /* MapGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAF124C3090900F313B3 /* MapGestureRecognizerDelegate.swift */; };
+		82E9EAF424C30BC700F313B3 /* CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAF324C30BC700F313B3 /* CLLocation.swift */; };
+		82E9EAF624C30E9E00F313B3 /* SaveOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAF524C30E9E00F313B3 /* SaveOffline.swift */; };
+		82E9EAF824C30EFB00F313B3 /* OfflineModeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9EAF724C30EFB00F313B3 /* OfflineModeKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +53,29 @@
 		82944A2A24C2E53C00A0AB0C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		82944A2D24C2E7A000A0AB0C /* FuturaPTBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaPTBook.otf; sourceTree = "<group>"; };
 		82944A2E24C2E7A000A0AB0C /* FuturaPTDemi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaPTDemi.otf; sourceTree = "<group>"; };
+		82944A3224C2EB6C00A0AB0C /* CustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		82E9EAC324C2ED0E00F313B3 /* CustomGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientButton.swift; sourceTree = "<group>"; };
+		82E9EAC624C2F16400F313B3 /* MapDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
+		82E9EACB24C2F21400F313B3 /* onCallweatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onCallweatherModel.swift; sourceTree = "<group>"; };
+		82E9EACD24C2F25100F313B3 /* OnCallDailyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnCallDailyModel.swift; sourceTree = "<group>"; };
+		82E9EACF24C2F27600F313B3 /* OnCallDailyWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnCallDailyWeatherModel.swift; sourceTree = "<group>"; };
+		82E9EAD124C2F29700F313B3 /* OnCallHourlyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnCallHourlyModel.swift; sourceTree = "<group>"; };
+		82E9EAD324C2F2B200F313B3 /* OnCallDefaultDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnCallDefaultDataProtocol.swift; sourceTree = "<group>"; };
+		82E9EAD524C2F2CD00F313B3 /* onCallCurrentWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onCallCurrentWeatherModel.swift; sourceTree = "<group>"; };
+		82E9EAD824C2F42400F313B3 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		82E9EADA24C2F44E00F313B3 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		82E9EADD24C2F48E00F313B3 /* NetworkResponseChainProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseChainProtocol.swift; sourceTree = "<group>"; };
+		82E9EADF24C2F4AA00F313B3 /* NotResponse404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotResponse404.swift; sourceTree = "<group>"; };
+		82E9EAE124C2F4C600F313B3 /* Response200.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response200.swift; sourceTree = "<group>"; };
+		82E9EAE324C2F4F500F313B3 /* ServerError500.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerError500.swift; sourceTree = "<group>"; };
+		82E9EAE624C2FB0E00F313B3 /* MKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
+		82E9EAE824C2FB6100F313B3 /* MapKitDelegation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitDelegation.swift; sourceTree = "<group>"; };
+		82E9EAEA24C3023F00F313B3 /* URLGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLGenerator.swift; sourceTree = "<group>"; };
+		82E9EAEF24C302CE00F313B3 /* OnCallParametersEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnCallParametersEnum.swift; sourceTree = "<group>"; };
+		82E9EAF124C3090900F313B3 /* MapGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGestureRecognizerDelegate.swift; sourceTree = "<group>"; };
+		82E9EAF324C30BC700F313B3 /* CLLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocation.swift; sourceTree = "<group>"; };
+		82E9EAF524C30E9E00F313B3 /* SaveOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveOffline.swift; sourceTree = "<group>"; };
+		82E9EAF724C30EFB00F313B3 /* OfflineModeKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModeKeys.swift; sourceTree = "<group>"; };
 		848FC987E13E234E32AC75D9 /* Pods-ColorTVCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorTVCodeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-ColorTVCodeChallenge/Pods-ColorTVCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		C6A4E1287EF058B5F41B133D /* Pods_ColorTVCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorTVCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +121,11 @@
 		82944A1324C2E33500A0AB0C /* ColorTVCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				82E9EAEC24C302A900F313B3 /* Constants */,
+				82E9EAE524C2FAF300F313B3 /* Extensions */,
+				82E9EAD724C2F3F300F313B3 /* Services */,
+				82E9EAC824C2F17200F313B3 /* Model */,
+				82944A3124C2EB5300A0AB0C /* IBDesignable */,
 				82944A2C24C2E76600A0AB0C /* Fonts */,
 				82944A2824C2E51200A0AB0C /* ViewControllers */,
 				82944A1424C2E33500A0AB0C /* AppDelegate.swift */,
@@ -90,6 +141,7 @@
 		82944A2824C2E51200A0AB0C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				82E9EAC524C2F14D00F313B3 /* MapDetail */,
 				82944A2924C2E51E00A0AB0C /* Map */,
 			);
 			path = ViewControllers;
@@ -99,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				82944A2A24C2E53C00A0AB0C /* MapViewController.swift */,
+				82E9EAE824C2FB6100F313B3 /* MapKitDelegation.swift */,
+				82E9EAF124C3090900F313B3 /* MapGestureRecognizerDelegate.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -110,6 +164,93 @@
 				82944A2E24C2E7A000A0AB0C /* FuturaPTDemi.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		82944A3124C2EB5300A0AB0C /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				82944A3224C2EB6C00A0AB0C /* CustomUIView.swift */,
+				82E9EAC324C2ED0E00F313B3 /* CustomGradientButton.swift */,
+			);
+			path = IBDesignable;
+			sourceTree = "<group>";
+		};
+		82E9EAC524C2F14D00F313B3 /* MapDetail */ = {
+			isa = PBXGroup;
+			children = (
+				82E9EAC624C2F16400F313B3 /* MapDetailViewController.swift */,
+			);
+			path = MapDetail;
+			sourceTree = "<group>";
+		};
+		82E9EAC824C2F17200F313B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82E9EAC924C2F1FC00F313B3 /* weather */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82E9EAC924C2F1FC00F313B3 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				82E9EACA24C2F20400F313B3 /* onCall */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
+		82E9EACA24C2F20400F313B3 /* onCall */ = {
+			isa = PBXGroup;
+			children = (
+				82E9EACB24C2F21400F313B3 /* onCallweatherModel.swift */,
+				82E9EACD24C2F25100F313B3 /* OnCallDailyModel.swift */,
+				82E9EACF24C2F27600F313B3 /* OnCallDailyWeatherModel.swift */,
+				82E9EAD124C2F29700F313B3 /* OnCallHourlyModel.swift */,
+				82E9EAD324C2F2B200F313B3 /* OnCallDefaultDataProtocol.swift */,
+				82E9EAD524C2F2CD00F313B3 /* onCallCurrentWeatherModel.swift */,
+			);
+			path = onCall;
+			sourceTree = "<group>";
+		};
+		82E9EAD724C2F3F300F313B3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				82E9EADC24C2F47A00F313B3 /* NetworkChain */,
+				82E9EAD824C2F42400F313B3 /* Network.swift */,
+				82E9EADA24C2F44E00F313B3 /* NetworkErrors.swift */,
+				82E9EAEA24C3023F00F313B3 /* URLGenerator.swift */,
+				82E9EAF524C30E9E00F313B3 /* SaveOffline.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		82E9EADC24C2F47A00F313B3 /* NetworkChain */ = {
+			isa = PBXGroup;
+			children = (
+				82E9EADD24C2F48E00F313B3 /* NetworkResponseChainProtocol.swift */,
+				82E9EADF24C2F4AA00F313B3 /* NotResponse404.swift */,
+				82E9EAE124C2F4C600F313B3 /* Response200.swift */,
+				82E9EAE324C2F4F500F313B3 /* ServerError500.swift */,
+			);
+			path = NetworkChain;
+			sourceTree = "<group>";
+		};
+		82E9EAE524C2FAF300F313B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82E9EAE624C2FB0E00F313B3 /* MKMapView.swift */,
+				82E9EAF324C30BC700F313B3 /* CLLocation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		82E9EAEC24C302A900F313B3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				82E9EAEF24C302CE00F313B3 /* OnCallParametersEnum.swift */,
+				82E9EAF724C30EFB00F313B3 /* OfflineModeKeys.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		D3F28E43127A0BC31BC7F5F1 /* Pods */ = {
@@ -238,9 +379,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E9EAD924C2F42400F313B3 /* Network.swift in Sources */,
+				82E9EAF624C30E9E00F313B3 /* SaveOffline.swift in Sources */,
+				82E9EAD024C2F27600F313B3 /* OnCallDailyWeatherModel.swift in Sources */,
+				82E9EAD224C2F29700F313B3 /* OnCallHourlyModel.swift in Sources */,
+				82E9EAF424C30BC700F313B3 /* CLLocation.swift in Sources */,
+				82E9EAE224C2F4C600F313B3 /* Response200.swift in Sources */,
+				82E9EADB24C2F44E00F313B3 /* NetworkErrors.swift in Sources */,
+				82E9EAF224C3090900F313B3 /* MapGestureRecognizerDelegate.swift in Sources */,
+				82E9EAF024C302CE00F313B3 /* OnCallParametersEnum.swift in Sources */,
 				82944A1524C2E33500A0AB0C /* AppDelegate.swift in Sources */,
+				82944A3324C2EB6C00A0AB0C /* CustomUIView.swift in Sources */,
+				82E9EACC24C2F21400F313B3 /* onCallweatherModel.swift in Sources */,
+				82E9EAE024C2F4AA00F313B3 /* NotResponse404.swift in Sources */,
+				82E9EAD424C2F2B200F313B3 /* OnCallDefaultDataProtocol.swift in Sources */,
+				82E9EAC724C2F16400F313B3 /* MapDetailViewController.swift in Sources */,
 				82944A2B24C2E53C00A0AB0C /* MapViewController.swift in Sources */,
+				82E9EAE724C2FB0E00F313B3 /* MKMapView.swift in Sources */,
 				82944A1724C2E33500A0AB0C /* SceneDelegate.swift in Sources */,
+				82E9EAE424C2F4F500F313B3 /* ServerError500.swift in Sources */,
+				82E9EAE924C2FB6100F313B3 /* MapKitDelegation.swift in Sources */,
+				82E9EACE24C2F25100F313B3 /* OnCallDailyModel.swift in Sources */,
+				82E9EAC424C2ED0E00F313B3 /* CustomGradientButton.swift in Sources */,
+				82E9EADE24C2F48E00F313B3 /* NetworkResponseChainProtocol.swift in Sources */,
+				82E9EAEB24C3023F00F313B3 /* URLGenerator.swift in Sources */,
+				82E9EAF824C30EFB00F313B3 /* OfflineModeKeys.swift in Sources */,
+				82E9EAD624C2F2CD00F313B3 /* onCallCurrentWeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +552,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CSPYV9P999;
 				INFOPLIST_FILE = ColorTVCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,6 +572,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CSPYV9P999;
 				INFOPLIST_FILE = ColorTVCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

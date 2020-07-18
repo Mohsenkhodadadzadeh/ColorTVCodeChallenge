@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3853C9EF74347546B5140675 /* Pods_ColorTVCodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A4E1287EF058B5F41B133D /* Pods_ColorTVCodeChallenge.framework */; };
 		82944A1524C2E33500A0AB0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82944A1424C2E33500A0AB0C /* AppDelegate.swift */; };
 		82944A1724C2E33500A0AB0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82944A1624C2E33500A0AB0C /* SceneDelegate.swift */; };
-		82944A1924C2E33500A0AB0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82944A1824C2E33500A0AB0C /* ViewController.swift */; };
 		82944A1C24C2E33500A0AB0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82944A1A24C2E33500A0AB0C /* Main.storyboard */; };
 		82944A1E24C2E33800A0AB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82944A1D24C2E33800A0AB0C /* Assets.xcassets */; };
 		82944A2124C2E33800A0AB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82944A1F24C2E33800A0AB0C /* LaunchScreen.storyboard */; };
+		82944A2B24C2E53C00A0AB0C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82944A2A24C2E53C00A0AB0C /* MapViewController.swift */; };
+		82944A2F24C2E7A400A0AB0C /* FuturaPTBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82944A2D24C2E7A000A0AB0C /* FuturaPTBook.otf */; };
+		82944A3024C2E7A700A0AB0C /* FuturaPTDemi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82944A2E24C2E7A000A0AB0C /* FuturaPTDemi.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +23,13 @@
 		82944A1124C2E33500A0AB0C /* ColorTVCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTVCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82944A1424C2E33500A0AB0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82944A1624C2E33500A0AB0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		82944A1824C2E33500A0AB0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82944A1B24C2E33500A0AB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82944A1D24C2E33800A0AB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82944A2024C2E33800A0AB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82944A2224C2E33800A0AB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82944A2A24C2E53C00A0AB0C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		82944A2D24C2E7A000A0AB0C /* FuturaPTBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaPTBook.otf; sourceTree = "<group>"; };
+		82944A2E24C2E7A000A0AB0C /* FuturaPTDemi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaPTDemi.otf; sourceTree = "<group>"; };
 		848FC987E13E234E32AC75D9 /* Pods-ColorTVCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorTVCodeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-ColorTVCodeChallenge/Pods-ColorTVCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		C6A4E1287EF058B5F41B133D /* Pods_ColorTVCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorTVCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,9 +75,10 @@
 		82944A1324C2E33500A0AB0C /* ColorTVCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				82944A2C24C2E76600A0AB0C /* Fonts */,
+				82944A2824C2E51200A0AB0C /* ViewControllers */,
 				82944A1424C2E33500A0AB0C /* AppDelegate.swift */,
 				82944A1624C2E33500A0AB0C /* SceneDelegate.swift */,
-				82944A1824C2E33500A0AB0C /* ViewController.swift */,
 				82944A1A24C2E33500A0AB0C /* Main.storyboard */,
 				82944A1D24C2E33800A0AB0C /* Assets.xcassets */,
 				82944A1F24C2E33800A0AB0C /* LaunchScreen.storyboard */,
@@ -82,13 +87,37 @@
 			path = ColorTVCodeChallenge;
 			sourceTree = "<group>";
 		};
+		82944A2824C2E51200A0AB0C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				82944A2924C2E51E00A0AB0C /* Map */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		82944A2924C2E51E00A0AB0C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				82944A2A24C2E53C00A0AB0C /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		82944A2C24C2E76600A0AB0C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				82944A2D24C2E7A000A0AB0C /* FuturaPTBook.otf */,
+				82944A2E24C2E7A000A0AB0C /* FuturaPTDemi.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D3F28E43127A0BC31BC7F5F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				848FC987E13E234E32AC75D9 /* Pods-ColorTVCodeChallenge.debug.xcconfig */,
 				199B8307C6954C51FCC32EC2 /* Pods-ColorTVCodeChallenge.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +182,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82944A2124C2E33800A0AB0C /* LaunchScreen.storyboard in Resources */,
+				82944A3024C2E7A700A0AB0C /* FuturaPTDemi.otf in Resources */,
+				82944A2F24C2E7A400A0AB0C /* FuturaPTBook.otf in Resources */,
 				82944A1E24C2E33800A0AB0C /* Assets.xcassets in Resources */,
 				82944A1C24C2E33500A0AB0C /* Main.storyboard in Resources */,
 			);
@@ -207,8 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82944A1924C2E33500A0AB0C /* ViewController.swift in Sources */,
 				82944A1524C2E33500A0AB0C /* AppDelegate.swift in Sources */,
+				82944A2B24C2E53C00A0AB0C /* MapViewController.swift in Sources */,
 				82944A1724C2E33500A0AB0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

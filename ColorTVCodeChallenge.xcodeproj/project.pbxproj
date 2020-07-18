@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3853C9EF74347546B5140675 /* Pods_ColorTVCodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A4E1287EF058B5F41B133D /* Pods_ColorTVCodeChallenge.framework */; };
+		82944A1524C2E33500A0AB0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82944A1424C2E33500A0AB0C /* AppDelegate.swift */; };
+		82944A1724C2E33500A0AB0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82944A1624C2E33500A0AB0C /* SceneDelegate.swift */; };
+		82944A1924C2E33500A0AB0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82944A1824C2E33500A0AB0C /* ViewController.swift */; };
+		82944A1C24C2E33500A0AB0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82944A1A24C2E33500A0AB0C /* Main.storyboard */; };
+		82944A1E24C2E33800A0AB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82944A1D24C2E33800A0AB0C /* Assets.xcassets */; };
+		82944A2124C2E33800A0AB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82944A1F24C2E33800A0AB0C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		199B8307C6954C51FCC32EC2 /* Pods-ColorTVCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorTVCodeChallenge.release.xcconfig"; path = "Target Support Files/Pods-ColorTVCodeChallenge/Pods-ColorTVCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		82944A1124C2E33500A0AB0C /* ColorTVCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTVCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82944A1424C2E33500A0AB0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82944A1624C2E33500A0AB0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82944A1824C2E33500A0AB0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82944A1B24C2E33500A0AB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82944A1D24C2E33800A0AB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82944A2024C2E33800A0AB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82944A2224C2E33800A0AB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848FC987E13E234E32AC75D9 /* Pods-ColorTVCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorTVCodeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-ColorTVCodeChallenge/Pods-ColorTVCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		C6A4E1287EF058B5F41B133D /* Pods_ColorTVCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorTVCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82944A0E24C2E33500A0AB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3853C9EF74347546B5140675 /* Pods_ColorTVCodeChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61CDA154F26A7533879F1183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A4E1287EF058B5F41B133D /* Pods_ColorTVCodeChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82944A0824C2E33500A0AB0C = {
+			isa = PBXGroup;
+			children = (
+				82944A1324C2E33500A0AB0C /* ColorTVCodeChallenge */,
+				82944A1224C2E33500A0AB0C /* Products */,
+				D3F28E43127A0BC31BC7F5F1 /* Pods */,
+				61CDA154F26A7533879F1183 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82944A1224C2E33500A0AB0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82944A1124C2E33500A0AB0C /* ColorTVCodeChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82944A1324C2E33500A0AB0C /* ColorTVCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				82944A1424C2E33500A0AB0C /* AppDelegate.swift */,
+				82944A1624C2E33500A0AB0C /* SceneDelegate.swift */,
+				82944A1824C2E33500A0AB0C /* ViewController.swift */,
+				82944A1A24C2E33500A0AB0C /* Main.storyboard */,
+				82944A1D24C2E33800A0AB0C /* Assets.xcassets */,
+				82944A1F24C2E33800A0AB0C /* LaunchScreen.storyboard */,
+				82944A2224C2E33800A0AB0C /* Info.plist */,
+			);
+			path = ColorTVCodeChallenge;
+			sourceTree = "<group>";
+		};
+		D3F28E43127A0BC31BC7F5F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848FC987E13E234E32AC75D9 /* Pods-ColorTVCodeChallenge.debug.xcconfig */,
+				199B8307C6954C51FCC32EC2 /* Pods-ColorTVCodeChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82944A1024C2E33500A0AB0C /* ColorTVCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82944A2524C2E33800A0AB0C /* Build configuration list for PBXNativeTarget "ColorTVCodeChallenge" */;
+			buildPhases = (
+				9FAABF9FE04F05523AA10F71 /* [CP] Check Pods Manifest.lock */,
+				82944A0D24C2E33500A0AB0C /* Sources */,
+				82944A0E24C2E33500A0AB0C /* Frameworks */,
+				82944A0F24C2E33500A0AB0C /* Resources */,
+				9D2509DBA2B9156226A76105 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorTVCodeChallenge;
+			productName = ColorTVCodeChallenge;
+			productReference = 82944A1124C2E33500A0AB0C /* ColorTVCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82944A0924C2E33500A0AB0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Mohsen khodadadazadeh";
+				TargetAttributes = {
+					82944A1024C2E33500A0AB0C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 82944A0C24C2E33500A0AB0C /* Build configuration list for PBXProject "ColorTVCodeChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82944A0824C2E33500A0AB0C;
+			productRefGroup = 82944A1224C2E33500A0AB0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82944A1024C2E33500A0AB0C /* ColorTVCodeChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82944A0F24C2E33500A0AB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82944A2124C2E33800A0AB0C /* LaunchScreen.storyboard in Resources */,
+				82944A1E24C2E33800A0AB0C /* Assets.xcassets in Resources */,
+				82944A1C24C2E33500A0AB0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D2509DBA2B9156226A76105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorTVCodeChallenge/Pods-ColorTVCodeChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorTVCodeChallenge/Pods-ColorTVCodeChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorTVCodeChallenge/Pods-ColorTVCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAABF9FE04F05523AA10F71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorTVCodeChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82944A0D24C2E33500A0AB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82944A1924C2E33500A0AB0C /* ViewController.swift in Sources */,
+				82944A1524C2E33500A0AB0C /* AppDelegate.swift in Sources */,
+				82944A1724C2E33500A0AB0C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82944A1A24C2E33500A0AB0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82944A1B24C2E33500A0AB0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82944A1F24C2E33800A0AB0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82944A2024C2E33800A0AB0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82944A2324C2E33800A0AB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82944A2424C2E33800A0AB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82944A2624C2E33800A0AB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848FC987E13E234E32AC75D9 /* Pods-ColorTVCodeChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSPYV9P999;
+				INFOPLIST_FILE = ColorTVCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mohsen.ColorTVCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82944A2724C2E33800A0AB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 199B8307C6954C51FCC32EC2 /* Pods-ColorTVCodeChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSPYV9P999;
+				INFOPLIST_FILE = ColorTVCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mohsen.ColorTVCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82944A0C24C2E33500A0AB0C /* Build configuration list for PBXProject "ColorTVCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82944A2324C2E33800A0AB0C /* Debug */,
+				82944A2424C2E33800A0AB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82944A2524C2E33800A0AB0C /* Build configuration list for PBXNativeTarget "ColorTVCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82944A2624C2E33800A0AB0C /* Debug */,
+				82944A2724C2E33800A0AB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82944A0924C2E33500A0AB0C /* Project object */;
+}
